@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="teach.css">
+</head>
+<body>
+   <body class="wave">
+      <nav class="navbar">
+        <img class="logo2" src="light.png" alt="">
+        <ul>
+            <li><a class="" href="heading.html">Home</a></li>
+            <li><a href="about.html" class="">About</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="contact.html" class="Active">Contact</a></li>
+            <li><a href="">Feedback</a></li>
+           <li><a href="form.3.html" class="">Register</a></li
+        </ul>
+       </nav> 
+       <div class="mama">
+  <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);" >
+   <script type="text/javascript" class=>
+   function ValidateForm(frm) {
+   if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+   if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+   if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+   if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+   return true; }
+   </script>
+   <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+   <tr> <td>
+   <label for="Name" >Name:</label>
+   </td> <td>
+   <input name="Name" type="Name" maxlength="60" style="width:150%;max-width:250px; font-size: 30px; " required />
+   </td> </tr> <tr> <td>
+   <label for="PhoneNumber">Phone number:</label>
+   </td> <td>
+   <input name="PhoneNumber" type="phonenumber" maxlength="43" style="width:100%;max-width:250px; font-size: 30px;" required />
+   </td> </tr> <tr> <td>
+   <label for="FromEmailAddress">Email address:</label>
+   </td> <td>
+   <input name="FromEmailAddress" type="email" maxlength="90" style="width:100%;max-width:250px; font-size: 30px;" required />
+   </td> </tr> <tr> <td>
+   <label for="Comments">Comments:</label>
+   </td> <td>
+   <textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+   </td> </tr> <tr> <td>
+  
+   </td> <td>
+   <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email" style="color: white;">form</a></div>
+   <input name="skip_Submit" type="submit" value="Submit" style="background-color: grey; font-size: 20px;"/>
+   <script src="https://www.100forms.com/js/FORMKEY:28ZFZTHKGLY4/SEND:josephsitlong2020@gmail.com" type="text/javascript"></script>
+   </td> </tr>
+   </table>
+   </form>
+</div>
+</body>
+</html>
